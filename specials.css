@@ -1,12 +1,15 @@
 h1{
     color: green;
+    text-align: center;
+    margin-top: 10%;
 }
 .tllogo {
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    max-width: 30%;
-    max-height: 30%;
+    margin-right: 100%;
+    margin-top: -10%;
+    max-width: 15%;
+    max-height: 15%;
     padding-top: 10%;
 }
 
@@ -28,14 +31,30 @@ body{
   padding-bottom: 15%;
 }
 
-.disclaimer-text{
-    font-family: "Lora";
+.disclaimer-text {
+    font-family: "Lora",'Courier New', Courier, monospace;
     font-style: italic;
     font-size: 12px;
 }
 
-.contact-info{
-    font-family: "Lora";
+.contact-info {
+    font-family: "Lora",'Courier New', Courier, monospace;
 }
 
+.specials-container {
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    background-color: mintcream;
+    border-radius: 30px;
+    opacity: .30;
+}
 
+.specials-list {
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
