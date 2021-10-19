@@ -11,10 +11,15 @@ h1{
 }
 
 body{
+    background: url("./taco3.jpeg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
+    height: 100%;
 }
 
+html, body {
+    min-height: 100vh;
+}
 
 .footer {
   position: fixed;
@@ -25,13 +30,12 @@ body{
   background-color: #B11F29;
   color: white;
   text-align: center;
-  padding-bottom: 15%;
 }
 
 .disclaimer-text{
     font-family: "Lora";
     font-style: italic;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .contact-info{
